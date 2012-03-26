@@ -1,7 +1,7 @@
 Qt Creator Remote Compiler Plugin CLI
 ===
 
-Harmattan optimized. This is just an example of https://github.com/diorahman/node-wcc usage. You can wildly think any use cases! :-)
+Harmattan optimized. This is just an example of https://github.com/diorahman/node-wcc usage. You can wildly think of any use cases! :-)
 
 Prerequisites
 ---
@@ -12,12 +12,12 @@ Clone this repo
 
 And then run: 
     
-	$ node wcc login --username your_nokia_developer_user_name --password your_nokia_developer_user_pasword
+	$ node wcc.js login --username your_nokia_developer_user_name --password your_nokia_developer_user_pasword
 	{ session: { id: 'rKksf4kAsCduUR4E2g....' } }
 
 Use the received sessionId to build the zipped project,
 
-	$ node wcc build ./wcc.js build --zipfile harmattan.zip --sessionId rKksf4kAsCduUR4E2gPm....
+	$ node wcc.js build --zipFile harmattan.zip --sessionId rKksf4kAsCduUR4E2gPm....
 	{ project: { id: 'LcG5Y2...' } }
 	
 Check build status by using the retrieved projectId
