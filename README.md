@@ -11,7 +11,8 @@ Install node-wcc (https://github.com/diorahman/node-wcc)
 Clone this repo
 
 And then run: 
-    $ node wcc login --username your_nokia_developer_user_name --password your_nokia_developer_user_pasword
+    
+	$ node wcc login --username your_nokia_developer_user_name --password your_nokia_developer_user_pasword
 	{ session: { id: 'rKksf4kAsCduUR4E2g....' } }
 
 Use the received sessionId to build the zipped project,
