@@ -18,7 +18,7 @@ And then run:
 Use the received sessionId to build the zipped project,
 
 	$ node wcc build ./wcc.js build --zipfile harmattan.zip --sessionId rKksf4kAsCduUR4E2gPm....
-	{ project: { id: 'LcG5Y2gSz' } }
+	{ project: { id: 'LcG5Y2...' } }
 	
 Check build status by using the retrieved projectId
 	
