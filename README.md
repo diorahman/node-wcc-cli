@@ -8,6 +8,8 @@ Prerequisites
 
 Install node-wcc (https://github.com/diorahman/node-wcc)
 
+Install optimist (https://github.com/substack/node-optimist)
+
 Clone this repo
 
 And then run: 
