@@ -31,6 +31,11 @@ Download the file if it's success
 
 	$ node wcc.js status --sessionId rKksf4kAsCduUR4E2gPmO... --projectId LcG5Y...
 	harmattan_0.0.1_armel_qt-4_7_4_meego_1_2_harmattan.deb
+	
+If you just need to get a valid session id, as response to this ticket: http://projects.developer.nokia.com/remotecompiler/ticket/42 
+
+    curl aegis.no.de/wcc/session
+
 
 TODO 
 ---
